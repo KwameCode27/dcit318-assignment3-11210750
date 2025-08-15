@@ -124,8 +124,8 @@
             try
             {
                 var processor = new StudentResultProcessor();
-                var students = processor.ReadStudentFromFile("C:\\Users\\fente\\Desktop\\dcit318-assignment3-11210750\\InventorySystem\\student.txt");
-                processor.WriteReportToFile(students, "C:\\Users\\fente\\Desktop\\dcit318-assignment3-11210750\\InventorySystem\\student_report.txt");
+                var students = processor.ReadStudentFromFile("C:\\Users\\fente\\Desktop\\dcit318-assignment3-11210750\\GradeSystem\\student_report.txt");
+                processor.WriteReportToFile(students, "C:\\Users\\fente\\Desktop\\dcit318-assignment3-11210750\\GradeSystem\\student_report.txt");
             }
             catch (FileNotFoundException ex)
             {
